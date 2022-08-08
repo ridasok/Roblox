@@ -62,7 +62,7 @@ if _G.Lib == nil then
         -- Change later
         Watermark = { 
             Text = "";
-            Visible = true;
+            Visible = false;
             Location = { 150 , 10 };
             MouseOffset = nil;
         };
