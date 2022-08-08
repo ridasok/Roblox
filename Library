@@ -62,7 +62,7 @@ if _G.Lib == nil then
         -- Change later
         Watermark = { 
             Text = "";
-            Visible = false;
+            Visible = true;
             Location = { 150 , 10 };
             MouseOffset = nil;
         };
@@ -574,7 +574,7 @@ function Lib:CreateWindow( params ) --// Title, FontColor, MainColor, Background
             if true then 
 
                 --// Watermark //--
-                local Watermark = "     Phantom X"
+                local Watermark = "     Ghostex"
                 local Watermark_Width = dx9.CalcTextWidth(Watermark)
 
                 dx9.DrawBox( { Win.Location[1] + 5 , Win.Location[2] + Win.Size[2] - 28 } , { Win.Location[1] + 15 + Watermark_Width , Win.Location[2] + Win.Size[2] - 4 } , Win.OutlineColor ) 
